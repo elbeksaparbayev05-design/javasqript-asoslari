@@ -45,3 +45,21 @@ console.log(a)
 
 a *= 5
 console.log(a)
+// shart operatrlari
+console.log("shart operatrlari");
+
+let yosh = 16
+let natija = (yosh >= 18) ? "ish laydi " : "hali yosh"
+console.log(natija);
+
+if (yosh >= 18) {
+    console.log("ish laydi");   
+}
+else{
+    console.log("hali yosh")
+}
+// typeof
+console.log("typeof");
+
+console.log(typeof yosh);
+console.log(typeof natija);
